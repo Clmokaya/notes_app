@@ -116,7 +116,8 @@ class _NotesPageState extends State<NotesPage> {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   //edit button
-
+                  IconButton(
+                      onPressed: () => UpdateNote(note), icon: Icon(Icons.edit))
                   //delete button
                 ],
               ),
