@@ -6,6 +6,7 @@ plugins {
 }
 
 android {
+    namespace = "io.isar.flutter.libs"
     namespace = "com.cmmapps.notes_app"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
